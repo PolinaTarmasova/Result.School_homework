@@ -1,0 +1,108 @@
+@media(max-width: 980px) {
+    header .myPhoto {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 200px;
+        height: 200px;
+    }
+
+    header li {
+        margin-bottom: 15px;
+    }
+
+    header p,
+    header h1 {
+        font-size: 2vw;
+    }
+
+    header .mesengers img {
+        margin-right: 0;
+        width: 5vw;
+    }
+
+    .myScills div,
+    .tableAboutMyWorks div,
+    .formWithMe .formWithMe_bacground {
+        width: 70vw;
+    }
+
+    .myScills li,
+    .myScills h2 {
+        margin-bottom: 5px;
+        font-size: 3vw;
+    }
+
+    .tableAboutMyWorks table {
+        font-size: 2vw;
+    }
+
+    .tableAboutMyWorks table td {
+        border: 2px solid black;
+    }
+
+    .tableAboutMyWorks table img {
+        width: 5vw;
+    }
+
+    .formWithMe input {
+        width: 40vw;
+    }
+
+    .formWithMe label {
+        font-size: 2vw;
+    }
+
+    footer .mesengers img {
+        width: 5vw;
+        margin-left: 2px;
+    }
+
+    footer .listOne li {
+        margin-right: 10%;
+    }
+}
+
+@media(max-width: 480px) {
+    header {
+        margin: 10px;
+    }
+
+    header .myPhoto {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 150px;
+        height: 150px;
+    }
+
+    header ul {
+        margin-left: 20px;
+    }
+
+    header .mesengers {
+        display: flex;
+    }
+    header .mesengers a{
+        width: 11vw;
+    }
+
+    header .mesengers img {
+        width: 10vw;
+        margin-left: 20px;
+    }
+
+    .formWithMe input {
+        width: 40vw;
+        border-bottom: 2px solid black;
+    }
+
+    .aboutMe button{
+        border: 2px solid black;
+        width: 90vw;
+    }
+
+    footer li{
+        font-size: 3vw;
+    }
+}

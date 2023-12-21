@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    margin: 50px 0 100px 50px;
+}
+
+header .myPhoto {
+    width: 300px;
+    height: 300px;
+    background-image: url(../img/my_photo.jpg);
+    background-size: cover;
+}
+
+header ul {
+    list-style: none;
+    margin-left: 50px;
+    align-self: center;
+}
+
+header ul li {
+    margin-bottom: 2vw;
+}
+
+header .mesengers {
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+header .mesengers img {
+    width: 100px;
+}
+
+.myScills div {
+    background-color: #FFDBDB;
+    width: 865px;
+    height: 301px;
+    padding: 50px;
+    border: 4px solid black;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.myScills h2,
+.tableAboutMyWorks h2,
+.formWithMe h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.myScills ul {
+    line-height: 200%;
+    font-size: larger;
+    list-style: disc;
+}
+
+.tableAboutMyWorks div {
+    background-color: #E4FFE3;
+    width: 865px;
+    height: 301px;
+    padding: 50px;
+    border: 4px solid black;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.tableAboutMyWorks table {
+    text-align: center;
+}
+
+.tableAboutMyWorks img {
+    width: 40px;
+}
+
+.tableAboutMyWorks td {
+    background-color: white;
+    border: 4px solid black;
+}
+
+.tableAboutMyWorks button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.tableAboutMyWorks .tdBut {
+    background-color: #E4FFE3;
+    border: none;
+}
+
+.formWithMe .formWithMe_bacground {
+    background-color: #E7F4FF;
+    width: 865px;
+    height: 301px;
+    padding: 50px;
+    border: 4px solid black;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.formWithMe form {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.formWithMe .lables {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    line-height: 40px;
+    width: 200px;
+}
+
+.formWithMe .inputs {
+    width: 400px;
+}
+
+.formWithMe input,
+.textareaStyle {
+    border: none;
+    border-bottom: 4px black solid;
+    width: 400px;
+    background-color: transparent;
+    outline: none;
+    line-height: 40px;
+}
+
+.aboutMe {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.aboutMe button {
+    font-size: xx-large;
+    background-color: #FFFDC5;
+    font-weight: 900;
+    border: 4px solid black;
+    width: 450px;
+    height: 90px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.aboutMe button:hover{
+    background-color: black;
+    color: #FFFDC5;;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px
+}
+
+footer .mesengers {
+    margin-left: auto;
+    margin-right: 50px;
+    align-self: flex-end;
+}
+
+footer img {
+    width: 100px;
+}
+
+footer .listOne {
+    display: flex;
+    margin-left: 50px;
+}
+
+footer .listOne li {
+    margin-right: 100px;
+}
