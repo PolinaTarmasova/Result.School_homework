@@ -1,4 +1,4 @@
-console.log("Запускает отсчет")
+console.log("Запускаем таймер");
 alert("5");
 alert("4");
 alert("3");
