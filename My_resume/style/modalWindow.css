@@ -1,0 +1,46 @@
+.bodyModal {
+    overflow: hidden;
+}
+
+.modalWindowOne,
+.modalWindowTwo,
+.modalWindowThree,
+.modalWindowFour {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
+.modalWindowOne__information,
+.modalWindowTwo__information,
+.modalWindowThree__information,
+.modalWindowFour__information {
+    background-color: #E4FFE3;
+    width: 865px;
+    height: 301px;
+    padding: 50px;
+    border: 4px solid black;
+    margin: 10vw auto;
+}
+
+.modalWindowFour__information {
+    background-color: #FFFDC5;
+}
+
+.modalWindowFour__photo {
+width: 10vw;
+display: block;
+margin: 0 auto;
+cursor: pointer;
+}
+
+.modalButton {
+    background-color: transparent;
+    border: none;
+    display: block;
+    margin: 2vw auto 0;
+    cursor: pointer;
+}
